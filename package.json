@@ -1,0 +1,33 @@
+{
+  "name": "http-client-helper",
+  "version": "0.0.1",
+  "description": "A simple client based on the ES Fetch.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.build.config.js"
+  },
+  "keywords": [
+    "fetch",
+    "promise",
+    "http"
+  ],
+  "author": {
+    "name": "pitchcontrol",
+    "email": "pitchcontrol@yandex.ru"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vaalentin/event-dispatcher": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
